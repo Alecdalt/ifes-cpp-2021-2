@@ -219,7 +219,7 @@ public:
         if (autodrive) {
             if (has_camera) {
                 std::cout << "switching to auto-drive...\n";
-                set_speed(50.0); // km/h
+                set_speed(60.0); // km/h
             } else
             std::cout << "impossible to switch auto-drive on without camera...\n";
         } else {
